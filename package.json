@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "preview": "vite preview"
+    
   },
   "dependencies": {
     "chart.js": "^4.4.3",
@@ -14,6 +16,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "@vue/compiler-sfc": "^3.0.4",
+    "typescript": "^5.4.5",
     "vite": "^5.2.13"
   }
 }
