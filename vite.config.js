@@ -8,7 +8,7 @@ export default defineConfig({
     include: ['vue-chartkick'],
   },
   plugins: [vue()],
-  base: '/appgestion'
+  base: '/appgestion',
   resolve: {
     alias: {
       '@': resolve(__dirname, './src')
